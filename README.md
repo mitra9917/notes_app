@@ -8,7 +8,7 @@ Deployed on **Netlify** 🚀.
 ---
 
 ## 🌐 Live Demo
-👉 [Try it here](https://your-netlify-link.netlify.app)  
+👉 [Try it here](https://my-notes-appls.netlify.app/)  
 
 ---
 
