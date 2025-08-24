@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#cf9aff,#5b548a);      /*used to add different colou gradients to the card*/
+    color:#fff;
+    padding-top:4%;
+    padding-left:15%;
+}
+.container h1{
+    display:flex;
+    align-items: center;
+    font-size:40px;
+    font-weight: 600;
+}
+.container h1 img{
+    width:60px;
+}
+.container button img{
+    width:25px;
+    margin-right:8px ;
+}
+.heading{
+    margin-bottom:20px;
+    margin-left:-25px;
+}
+.container button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#9418fd,#571094);
+    color:#fff;
+    outline:0;
+    border:0;
+    border-radius:40px;
+    cursor:pointer;
+    padding:9px 15px;
+    opacity:1;
+    transition:
+        opacity 0.3 ease,
+        transform 0.1s ease-in-out;
+}
+
+/* Hover effect */
+.container button:hover {
+  opacity: 0.85;                   /* Slightly transparent on hover */
+}
+
+/* Active (click) effect */
+.container button:active {
+  opacity: 0.7;                    /* More transparent when clicked */
+  transform: scale(0.97);         /* Slightly shrink the button */
+}
+
+.input-box{
+    position:relative;
+    width:100%;
+    max-width:500px;
+    min-height:150px;
+    background:#fff;
+    color: #333;;
+    margin:30px -5px;
+    padding:20px;
+    outline:none;
+    border-radius:8px;
+    word-break: break-word;         /* Break long words */
+    overflow-wrap: break-word;      /* Wrap overflow text */
+    white-space: pre-wrap;          /* Preserve whitespace and wrap */
+    box-sizing: border-box;
+    transition: min-height 0.2s;    /* Smooth height change */
+}
+.notes-container img{
+    width:25px;
+    position:absolute;
+    right:25px;
+    bottom:25px;
+    cursor:pointer;
+}
